@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="810" height="315" viewBox="0 0 810 315" role="img" aria-labelledby="title desc">
+  <title id="title">Multilayer perceptron</title>
+  <desc id="desc">Inputs x₁ and x₂ each feed neurons n₁ and n₂. Both hidden neurons feed n₃, which produces ŷ.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M4 1 L8 5 L4 9" fill="none" stroke="#a3a3a3" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <rect width="810" height="315" rx="16" fill="#181818"/>
+  <g fill="none" stroke="#a3a3a3" stroke-width="2" marker-end="url(#arrow)">
+    <path d="M123 79 H271"/>
+    <path d="M123 97 H153 Q165 97 165 109 V147 Q165 159 177 159 H230 Q242 159 242 171 V206 Q242 218 254 218 H271"/>
+    <path d="M123 218 H192 Q204 218 204 206 V109 Q204 97 216 97 H271"/>
+    <path d="M123 236 H271"/>
+    <path d="M342 88 H368 Q384 88 384 104 V196 Q384 208 396 208 H409"/>
+    <path d="M342 227 H406"/>
+    <path d="M481 218 H546"/>
+  </g>
+  <g fill="#05294a" stroke="#23435e" stroke-width="2">
+    <circle cx="96" cy="88" r="28"/>
+    <circle cx="96" cy="227" r="28"/>
+    <circle cx="314" cy="88" r="28"/>
+    <circle cx="314" cy="227" r="28"/>
+    <circle cx="453" cy="218" r="28"/>
+    <rect x="563" y="160" width="163" height="116" rx="32"/>
+  </g>
+  <g fill="#a3d3ff" font-family="system-ui, sans-serif" font-weight="600" font-size="26" text-anchor="middle" dominant-baseline="central">
+    <text x="96" y="88">x₁</text>
+    <text x="96" y="227">x₂</text>
+    <text x="314" y="88">n₁</text>
+    <text x="314" y="227">n₂</text>
+    <text x="453" y="218">n₃</text>
+    <text x="644.5" y="218">ŷ</text>
+  </g>
+</svg>
